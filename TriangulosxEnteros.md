@@ -34,23 +34,25 @@ Fin Si
 
 
 numero = int(input("Ingrese un numero entero positivo: "))
+
 if numero < 1:
     print("El numero ingresado no es positivo.")
 else:
     print("Triangulo 1:")
     for i in range(1, numero + 1):
         print("* " * i)
+
     print("Triangulo 2:")
     for i in range(numero, 0, -1):
         print("* " * i)
+
     print("Triangulo 3:")
     for i in range(1, numero + 1):
         print("  " * (numero - i) + "* " * i)
+
     print("Triangulo 4:")
     for i in range(numero, 0, -1):
         print("  " * (numero - i) + "* " * i)
-
-
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -58,16 +60,21 @@ else:
 **C++**
 
 
+
+
 #include <iostream>
 using namespace std;
+
 int main() {
     int numero;
     cout << "Ingrese un numero entero: ";
     cin >> numero;
+
     if (numero < 1) {
         cout << "El numero ingresado no es positivo." << endl;
         return 1;
     }
+
     cout << "Triangulo 1:" << endl;
     for (int i = 1; i <= numero; i++) {
         for (int j = 1; j <= i; j++) {
@@ -75,6 +82,7 @@ int main() {
         }
         cout << endl;
     }
+
     cout << "Triangulo 2:" << endl;
     for (int i = numero; i >= 1; i--) {
         for (int j = 1; j <= i; j++) {
@@ -82,6 +90,7 @@ int main() {
         }
         cout << endl;
     }
+
     cout << "Triangulo 3:" << endl;
     for (int i = 1; i <= numero; i++) {
         for (int j = numero; j > i; j--) {
@@ -92,6 +101,7 @@ int main() {
         }
         cout << endl;
     }
+
     cout << "Triangulo 4:" << endl;
     for (int i = numero; i >= 1; i--) {
         for (int j = numero; j > i; j--) {
@@ -102,6 +112,7 @@ int main() {
         }
         cout << endl;
     }
+
     return 0;
 }
 
