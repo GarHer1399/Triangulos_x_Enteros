@@ -1,7 +1,4 @@
-Se presenta el codigo para obtener los posibles Triangulos en base a el entero ingresado en los lenguajes de programacion solicitados y pseudocodigo.
-
 **PSEUDOCODIGO**
-
 Ingrese un numero entero positivo:
 Si numero < 1 entonces
     Escribir "El numero ingresado no es positivo."
