@@ -30,12 +30,12 @@ Fin Si
 **PYTHON**
 
 
-numero = int(input("Ingrese un numero entero positivo: "))
+      numero = int(input("Ingrese un numero entero positivo: "))
 
-if numero < 1:
-    print("El numero ingresado no es positivo.")
-else:
-    print("Triangulo 1:")
+      if numero < 1:
+        print("El numero ingresado no es positivo.")
+      else:
+        print("Triangulo 1:")
     for i in range(1, numero + 1):
         print("* " * i)
 
